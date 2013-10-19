@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Submit your job</legend>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Company name</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Link to your website</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Job title</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">City</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Job type</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium">
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-small" type="text" placeholder="Internship">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-small" type="text" placeholder="Web development">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-small" type="text" placeholder="Design/UX">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-small" type="text" placeholder="Sales/Marketing">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-mini" type="text" placeholder="Bus.dev./Ops">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-small" type="text" placeholder="Product management">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-mini" type="text" placeholder="Seeking Co-Founders">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="control-group">
+  <label class="control-label" for="prependedcheckbox"></label>
+  <div class="controls">
+    <div class="input-prepend">
+      <span class="add-on">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="input-small" type="text" placeholder="Other">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Describe the open position &amp; your company</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Keywords related to your position</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="2-5 keywords" class="input-medium">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Applications be sent to</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="your email" class="input-medium">
+    
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+<br>
+<br>
+
+<div class="row">
+<button class="btn btn-large btn-primary">Submit</button>
+</div>
+
+{% endblock %}

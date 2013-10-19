@@ -1,0 +1,22 @@
+# Create your views here.
+from django.views import generic
+from django.views.generic.base import TemplateView
+
+
+class MainView(TemplateView):
+    template_name = 'main.html'
+
+class HiringView(TemplateView):
+    template_name = 'hiring.html'
+
+class AllView(TemplateView):
+    template_name = 'all.html'
+
+class AboutView(TemplateView):
+    template_name = 'about.html'
+    
+class SubmitStartupView(TemplateView):
+    template_name = 'submitstartup.html'
+    
+class SubmitJobView(TemplateView):
+    template_name = 'submitjob.html'

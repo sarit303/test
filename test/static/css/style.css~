@@ -1,0 +1,20 @@
+.startup {
+    border: 2 solid #a1a1a1;
+    border-top-left-radius:35;
+    border-bottom-right-radius:35;
+}
+
+
+
+
+.logo {
+
+    width: 50;
+    height: 50;
+}
+
+.hero-unit {
+
+}
+
+

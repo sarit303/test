@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+    {% if error_message %}
+        <p><strong>
+        {{ error_message }}
+        </strong></p>
+    {% endif %}
+
+<div>
+<button class="btn btn-large" type="button">
+Sign up for Startup Love
+</button>  
+</div>
+
+<div class="
+
+{% endblock %}

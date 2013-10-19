@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Submit your startup</legend>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Company name</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Job title</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Link to your website</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Category</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="#music #platform" class="input-medium" required="">
+    <p class="help-block">Chose min. 2 categories to describe your startup. For example #music #platform or #ecommmerce #fashion</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Short teaser</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="Use no more than 30 characters" class="input-medium" required="">
+    <p class="help-block">Describe your company in 30 characters</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Describe your company</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="" class="input-medium" required="">
+    <p class="help-block">Keep it within 5 lines. Keep it short and catchy to get people</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">What action do you want readers to take?</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="tweet, like, download, feedback" class="input-xlarge">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Are you hiring?</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="If yes, submit to job list" class="input-medium">
+    <p class="help-block">We feature top jobs every week</p>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+<br>
+<br>
+
+<div class="row">
+<button class="btn btn-large btn-primary">Submit</button>
+</div>
+
+
+{% endblock %}
